@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="left_text">
+        <item name="android:layout_width">92dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textColor">@color/item_name_new</item>
+        <item name="android:gravity">left|center_vertical</item>
+        >
+    </style>
+
+    <style name="right_textview">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:textColor">@color/item_content_new</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:background">@drawable/text_radiu0_bg</item>>
+    </style>
+
+    <dimen name="sp_14">14sp</dimen>
+    <color name="item_name_new">#a4b2c7</color>
+</resources>
